@@ -1,0 +1,19 @@
+ion-button {
+  width: 100%;
+}
+
+.discord {
+  --background: var(--ion-color-discord);
+  --background-hover: var(--ion-color-discord-tint);
+  --background-activated: var(--ion-color-discord-shade);
+}
+
+@media screen and (min-width: 768px) {
+  ion-button {
+    text-transform: capitalize;
+    letter-spacing: 0.8px;
+    font-size: 0.875rem;
+    width: 280px;
+    --border-radius: 8px;
+  }
+}

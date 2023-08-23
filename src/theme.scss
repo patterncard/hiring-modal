@@ -1,0 +1,158 @@
+:root {
+  --ion-font-family: "Poppins", sans-serif;
+
+  --ion-headings-font-weight: 300;
+  --ion-buttons-font-size: 0.75rem;
+  --ion-buttons-font-weight: semi-bold;
+
+  --ion-grid-padding: 0rem;
+  --ion-grid-column-padding: 0rem;
+
+  --ion-card-color: #ffffff;
+
+  --ion-size-xs: 0.5rem;
+  --ion-size-sm: 0.75rem;
+  --ion-size-md: 1rem;
+  --ion-size-lg: 1.5rem;
+  --ion-size-xl: 3rem;
+  --ion-size-2xl: 4rem;
+
+  --ion-color-angular: #ac282b;
+  --ion-color-communication: #8e8d93;
+  --ion-color-tooling: #fe4c52;
+  --ion-color-services: #fd8b2d;
+  --ion-color-design: #fed035;
+  --ion-color-workshop: #69bb7b;
+  --ion-color-food: #3bc7c4;
+  --ion-color-documentation: #b16be3;
+  --ion-color-navigation: #6600cc;
+}
+
+.dark-theme.ios {
+  --ion-background-color: #000000;
+
+  --ion-text-color: #ffffff;
+
+  --ion-color-step-50: #0d0d0d;
+  --ion-color-step-100: #1a1a1a;
+  --ion-color-step-150: #262626;
+  --ion-color-step-200: #333333;
+  --ion-color-step-250: #404040;
+  --ion-color-step-300: #4d4d4d;
+  --ion-color-step-350: #595959;
+  --ion-color-step-400: #666666;
+  --ion-color-step-450: #737373;
+  --ion-color-step-500: #808080;
+  --ion-color-step-550: #8c8c8c;
+  --ion-color-step-600: #999999;
+  --ion-color-step-650: #a6a6a6;
+  --ion-color-step-700: #b3b3b3;
+  --ion-color-step-750: #bfbfbf;
+  --ion-color-step-800: #cccccc;
+  --ion-color-step-850: #d9d9d9;
+  --ion-color-step-900: #e6e6e6;
+  --ion-color-step-950: #f2f2f2;
+
+  --ion-toolbar-background: #000000;
+  --ion-toolbar-border-color: #000000;
+
+  --ion-item-background: #000000;
+
+  --ion-elevated-background: #14171a;
+}
+
+/*
+ * Additional styles
+ * ----------------------------------------------------------------------------
+ */
+
+:root {
+  --ion-color-discord: #5966f3;
+  --ion-color-discord-contrast: #ffffff;
+  --ion-color-discord-shade: #4b59f1;
+  --ion-color-discord-tint: #6773f4;
+
+  --ion-color-email: #303236;
+  --ion-color-email-contrast: #ffffff;
+  --ion-color-email-shade: rgb(41, 42, 46);
+  --ion-color-email-tint: rgb(55, 57, 62);
+
+  --ion-color-action-button: linear-gradient(90deg, #82edb9 100%, #c2f0ed 100%);
+  --ion-color-action-button-rgb: 105, 187, 123;
+  --ion-color-action-button-contrast: #103366;
+  --ion-color-action-button-contrast-rgb: 0, 0, 0;
+  --ion-color-action-button-shade: linear-gradient(
+    90deg,
+    #75ebb2 100%,
+    #b5ede9 100%
+  );
+  --ion-color-action-button-tint: linear-gradient(
+    90deg,
+    #8fefc1 100%,
+    #cef3f1 100%
+  );
+
+  --ion-color-action-button-no-gradient: #82edb9;
+  --ion-color-action-button-no-gradient-rgb: 105, 187, 123;
+  --ion-color-action-button-no-gradient-contrast: #103366;
+  --ion-color-action-button-no-gradient-contrast-rgb: 0, 0, 0;
+  --ion-color-action-button-no-gradient-shade: #75ebb2;
+  --ion-color-action-button-no-gradient-tint: #8fefc1;
+}
+
+.ion-color-action-button {
+  --ion-color-base: var(--ion-color-action-button);
+  --ion-color-base-rgb: var(--ion-color-action-button-rgb);
+  --ion-color-contrast: var(--ion-color-action-button-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-action-button-contrast-rgb);
+  --ion-color-shade: var(--ion-color-action-button-shade);
+  --ion-color-tint: var(--ion-color-action-button-tint);
+}
+
+.ion-color-action-button-no-gradient {
+  --ion-color-base: var(--ion-color-action-button-no-gradient);
+  --ion-color-base-rgb: var(--ion-color-action-button-no-gradient-rgb);
+  --ion-color-contrast: var(--ion-color-action-button-no-gradient-contrast);
+  --ion-color-contrast-rgb: var(
+    --ion-color-action-button-no-gradient-contrast-rgb
+  );
+  --ion-color-shade: var(--ion-color-action-button-no-gradient-shade);
+  --ion-color-tint: var(--ion-color-action-button-no-gradient-tint);
+}
+
+ion-button {
+  font-size: var(--ion-buttons-font-size);
+  height: var(--ion-size-xl);
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  --border-radius: 16px;
+  --padding-start: calc(1.25 * var(--ion-size-md));
+  --padding-end: calc(1.25 * var(--ion-size-md));
+  --padding-top: calc(1.25 * var(--ion-size-sm));
+  --padding-bottom: calc(1.25 * var(--ion-size-sm));
+}
+
+ion-item {
+  --padding-bottom: 0;
+  --padding-top: 0;
+  --padding-start: 0;
+  --padding-end: 0;
+  --inner-padding-bottom: 0;
+  --inner-padding-top: 0;
+  --inner-padding-start: 0;
+  --inner-padding-end: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--ion-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

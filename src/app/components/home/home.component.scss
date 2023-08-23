@@ -1,0 +1,51 @@
+ion-button {
+  width: 100%; // border radius does not work with expand full
+}
+
+.email {
+  --background: var(--ion-color-email);
+  --background-hover: var(--ion-color-email-tint);
+  --background-activated: var(--ion-color-email-shade);
+}
+
+.logo-bg-container {
+  position: relative;
+}
+
+.logo-bg {
+  position: absolute;
+  width: 256px;
+  transform: translateX(-50%) translateY(-84%); // custom position for image positioning
+}
+
+.content {
+  padding: var(--ion-size-2xl);
+  margin-top: 196px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .email {
+    --background: var(--ion-color-action-button);
+    --background-hover: var(--ion-color-action-button-tint);
+    --background-activated: var(--ion-color-action-button-shade);
+    --color: var(--ion-color-action-button-contrast);
+  }
+
+  .content {
+    margin-top: 360px;
+  }
+
+  .logo-bg {
+    position: absolute;
+    width: 446px;
+    transform: translateX(-50%) translateY(-84%); // custom position for image positioning
+  }
+}
